@@ -46,8 +46,8 @@ Make sure you have the following installed:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/cibc-clone.git
-    cd cibc-clone
+    git clone https://github.com/utsavpatel562/CIBC-Clone.git
+    cd CIBC-Clone
     ```
 
 2. **Install dependencies:**
@@ -79,3 +79,5 @@ Start the development server:
 npm run dev
 # or
 yarn dev
+```
+Made with ❤️ by Utsav Patel
