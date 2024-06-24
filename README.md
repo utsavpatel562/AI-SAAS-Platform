@@ -1,96 +1,81 @@
-# AI SAAS Platform 🚀
+# 🏦 CIBC Clone
 
-Welcome to the AI SAAS Platform! This project is a cutting-edge AI-powered SaaS platform built using Next.js, TypeScript, Cloudinary AI, Clerk, Stripe, MongoDB, and Cloudinary Media Uploader.
+Welcome to the CIBC Clone! This project is a modern web application built with the following technologies:
 
-## Features ✨
+- **TypeScript**
+- **Next.js**
+- **AppWrite**
+- **ShadCN**
+- **Tailwind CSS**
+- **JavaScript**
 
-- **Next.js** for server-side rendering and static site generation
-- **TypeScript** for type-safe coding
-- **Cloudinary AI** for intelligent image and video processing
-- **Clerk** for authentication and user management
-- **Stripe** for payment processing and subscription management
-- **MongoDB** for database management
-- **Cloudinary Media Uploader** for seamless media uploads and management
+## 📚 Table of Contents
 
-## Getting Started 🛠️
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Follow these steps to get the project up and running on your local machine.
+## ✨ Features
 
-### Prerequisites 📋
+- User authentication and management with AppWrite
+- Responsive design with Tailwind CSS
+- Dynamic and interactive UI with ShadCN components
+- Modern development with TypeScript and Next.js
 
-Ensure you have the following installed:
+## 📸 Screenshots
 
-- Node.js
-- npm or yarn
-- MongoDB
+*Add screenshots here to showcase your app's interface and functionality.*
 
-### Installation 📦
+## 🚀 Getting Started
 
-1. **Clone the repository**
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [AppWrite](https://appwrite.io/)
+
+### 🔧 Installation
+
+1. **Clone the repository:**
     ```bash
-    git clone https://github.com/utsavpatel562/AI-SAAS-Platform.git
-    cd AI-SAAS-Platform
+    git clone https://github.com/your-username/cibc-clone.git
+    cd cibc-clone
     ```
 
-2. **Install dependencies**
-
+2. **Install dependencies:**
     ```bash
     npm install
     # or
     yarn install
     ```
 
-3. **Environment Variables**
+3. **Set up AppWrite:**
 
-    Create a `.env.local` file in the root directory and add the following environment variables:
+   Follow the [AppWrite setup guide](https://appwrite.io/docs/getting-started-for-server) to configure your backend.
+
+4. **Create a `.env.local` file:**
+   
+   Add your AppWrite credentials and other environment variables in the `.env.local` file:
 
     ```env
-    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-    NEXT_PUBLIC_CLOUDINARY_API_KEY=your_cloudinary_api_key
-    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-
-    CLERK_FRONTEND_API=your_clerk_frontend_api
-    CLERK_API_KEY=your_clerk_api_key
-
-    STRIPE_PUBLIC_KEY=your_stripe_public_key
-    STRIPE_SECRET_KEY=your_stripe_secret_key
-
-    MONGODB_URI=your_mongodb_connection_string
+    NEXT_PUBLIC_APPWRITE_ENDPOINT=https://[YOUR APPWRITE ENDPOINT]
+    NEXT_PUBLIC_APPWRITE_PROJECT=[YOUR PROJECT ID]
+    NEXT_PUBLIC_APPWRITE_API_KEY=[YOUR API KEY]
     ```
 
-### Running the Application ▶️
+### ▶️ Usage
 
-To start the development server, run:
+Start the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-```
-
-### Building for Production 🏗️
-
-To create an optimized production build, run:
-```bash
-npm run build
-npm run start
-# or
-yarn build
-yarn start
-```
-
-### Deployment 🚀
-
-This project can be easily deployed to platforms like Vercel, Heroku, or any cloud provider that supports Node.js. Ensure that your environment variables are properly configured in your deployment settings.
-
-### Contributing 🤝
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
-
-### License 📄
-This project is MIT licensed.
-
-### Contact 📬
-For any inquiries or questions, please contact utsavpatel562.
-
-Made with ❤️ by Utsav Patel
