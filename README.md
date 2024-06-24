@@ -67,3 +67,30 @@ To start the development server, run:
 npm run dev
 # or
 yarn dev
+```
+
+### Building for Production 🏗️
+
+To create an optimized production build, run:
+```bash
+npm run build
+npm run start
+# or
+yarn build
+yarn start
+```
+
+### Deployment 🚀
+
+This project can be easily deployed to platforms like Vercel, Heroku, or any cloud provider that supports Node.js. Ensure that your environment variables are properly configured in your deployment settings.
+
+### Contributing 🤝
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+### License 📄
+This project is MIT licensed.
+
+### Contact 📬
+For any inquiries or questions, please contact utsavpatel562.
+
+Made with ❤️ by Utsav Patel
